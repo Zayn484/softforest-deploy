@@ -18,7 +18,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['softforest.herokuapp.com']
 
 # User model
-AUTH_USER_MODEL = 'softforest.accounts.User'
+AUTH_USER_MODEL = 'accounts.User'
 
 
 # Application definition
