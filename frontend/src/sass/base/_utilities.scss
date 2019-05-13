@@ -1,0 +1,25 @@
+//APPDETAIL BUTTON
+.Button-Height-Small{ width: 4rem}
+.Button-Height-Medium{ width: 8rem}
+.Button-Height-Large{ width: 12rem}
+
+//PROFILE VIEW EDUCATION INSIDE TEXT
+.Font-Education{font-size: 2rem;}
+
+
+//UnOrderList Style none
+.UnOrderList{
+    background-color:$color-grey;
+    width: 100%;
+    list-style: none;
+    padding: 1rem;
+}
+
+#lblCartCount {
+    font-size: 12px;
+    background:$color-primary;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px; 
+}

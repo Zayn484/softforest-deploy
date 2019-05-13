@@ -1,0 +1,15 @@
+.Loading-Card {
+    box-shadow: 0 .2rem .4rem #ccc;
+    transition: all .2s;
+
+    &:hover {
+        transform: translateY(-3px);
+    }
+
+   
+}
+
+.ant-card-meta-title:hover {
+    cursor: pointer;
+    color: $color-primary-dark;
+}

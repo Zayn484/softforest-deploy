@@ -1,0 +1,27 @@
+.Category-Checkbox {
+    background-color: transparent;
+    border: 0;
+    
+
+    &__Body {
+        display: inline-block;
+        width: 15rem;
+        height: 15rem;
+        margin: 0 auto;
+        cursor: pointer;
+
+        &-active {
+            background-color: black;
+        }
+     
+    }
+}
+
+#checkboxes input[type=checkbox]{
+    display: none;
+}
+
+#checkboxes input[type=checkbox]:checked + .Category-Checkbox__Body{
+    box-shadow: 0 .4rem .6rem #ccc;
+    background-color: $color-white;
+}

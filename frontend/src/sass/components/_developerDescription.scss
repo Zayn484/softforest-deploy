@@ -1,0 +1,9 @@
+.Developer-Description {
+    cursor: pointer;
+
+    &:hover{
+        & h2 {
+            color: $color-primary-dark;
+        }
+    }
+}

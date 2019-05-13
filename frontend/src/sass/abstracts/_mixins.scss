@@ -1,0 +1,20 @@
+@mixin AlignCenter {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@mixin CustomShadowBox {
+    background-color: $color-white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba($color-black, .2);
+}
+
+// @mixin respond($breakpoint) {
+//     @if $breakpoint == xs {
+//         @media screen {
+            
+//         }
+//     }
+// }

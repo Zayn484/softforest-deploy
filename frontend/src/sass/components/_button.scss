@@ -1,0 +1,51 @@
+.Btn-primary {
+    background-color:$color-primary;
+    color: $color-white;
+}
+.Btn-lg {
+    padding: 1.4rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;  
+}
+
+.Btn-md {
+    width: auto;
+    height: 5rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.Btn-sm {
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Btn-search {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Btn-disable {
+    cursor: not-allowed !important;
+    background-color: #ccc !important;
+}
+
+.form__Button--SignUp {
+    color: $color-primary;
+}
+
+.Show-Edit-Btn button{
+    display: none;
+}
+
+.Show-Edit-Btn:hover {
+    button {
+        display: inline;
+    }
+}

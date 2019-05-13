@@ -1,0 +1,15 @@
+.Recommendation-Query-Section {
+    height: 45rem;
+    margin-top: 3rem;
+}
+
+@media (max-width: 760px ){
+
+    .Recommendation-Query-Section {
+        height: auto;   
+        
+        & ~ button {
+            margin-top: 15rem;
+        }
+    }
+}

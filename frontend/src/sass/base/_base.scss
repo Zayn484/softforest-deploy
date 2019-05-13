@@ -1,0 +1,31 @@
+
+html {
+    font-size: 62.5%;
+    
+}
+
+body {
+    background-color: $color-secondary !important;
+}
+
+Link:hover,
+    Link:active {
+        text-decoration: none !important;
+    }
+a {
+    color: $font-color;
+}
+
+a:hover,
+a:active{
+    color: $font-color;
+}
+
+button:focus {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+button:active {
+    background-color: $color-primary-dark;
+}

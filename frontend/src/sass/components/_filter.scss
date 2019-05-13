@@ -1,0 +1,60 @@
+.Filter { 
+    height: auto;
+    background-color: $color-grey;
+    overflow: inherit;
+    
+    & .Btn-Filter {
+        background-color: transparent;
+        color: $font-color;
+        border: .1rem solid;
+    }
+
+    
+    transition:all .2s ease-out;
+
+    &-Open {
+        height: 30rem;
+        overflow: hidden;
+        background-color: $color-grey;
+        
+        & .Btn-Filter {
+            display: none;
+        }
+    
+        & .Btn-Apply,
+          .Btn-Cancel {
+            display: block;
+            background-color: transparent;
+            color: $font-color;
+        }
+    
+        & .Btn-Apply {
+            color: $color-primary;
+        }
+    
+    }
+
+    &-Close {
+        height: 10rem;
+        .Filter-Container__Option {
+            display: none;
+        }
+    
+        
+        & .Btn-Apply,
+          .Btn-Cancel {
+            display: none;
+        }
+    }
+}
+
+.Filter-Container {
+    margin-top: 10rem;
+}
+
+
+@media (max-width: 760px) {
+    .Filter-Open {
+        height: 60rem; 
+    }
+}

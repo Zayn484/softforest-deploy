@@ -1,0 +1,33 @@
+.Primary-Heading{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.Secondary-Heading{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Tertiary-Heading {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.Normal-Font-Size{
+    font-size: 1.6rem;
+}
+
+.Primary-Font-Color {
+    color: $color-primary;
+}
+
+.form__paragraph {
+    display: inline-block;
+}
+.form-control{
+    font-size: 1.3rem;
+}
+.form__Button--SignUp{
+    display: inline-block;
+}

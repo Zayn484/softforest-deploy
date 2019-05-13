@@ -1,0 +1,43 @@
+.toolbar {
+    border-bottom: .3rem solid $color-primary;
+    font-size: 1.6rem;
+}
+
+.toolbar-nav {
+    background-color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    & > a:hover {
+        color: red;
+    }
+
+    &--dropdown {
+        border: 0;
+        background: transparent;
+        color: $font-color;
+        font-weight: bold;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+
+        &:hover { 
+            background: transparent;
+            color: $font-color;
+        }
+        &:active {
+            background: transparent;
+        }
+    }
+
+    &-item > a{
+        color: $font-color !important; 
+    }
+   
+}
+
+
+.dropdown-menu {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+
+}

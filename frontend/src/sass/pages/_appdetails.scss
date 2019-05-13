@@ -1,0 +1,22 @@
+.App{
+    &__ImageBox{
+        width: 100%;
+    }
+    &__AppPic{
+        height: 20rem;
+        padding: 1rem;
+    }
+
+    &__ScreenShots{
+        width: 100%;
+    }
+    &__ProfilePic{
+        height: 20rem;
+        padding: 1rem;
+    }
+}
+
+.btnDisable:disabled{
+    background-color: green;
+    cursor: not-allowed;
+}

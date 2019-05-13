@@ -1,0 +1,8 @@
+.Footer {
+    color: $font-color;
+    background-color: $color-white;
+
+    & p a {
+        color: $font-color;
+    }
+}
