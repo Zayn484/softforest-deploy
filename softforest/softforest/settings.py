@@ -78,7 +78,7 @@ ROOT_URLCONF = 'softforest.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'build')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -158,7 +158,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIR = [
-    os.path.join(BASE_DIR, "static_my_proj")
+    os.path.join(BASE_DIR, "build/static")
 
 ]
 

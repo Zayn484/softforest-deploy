@@ -2,7 +2,8 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from rest_framework import routers
-from django.urls import path, include
+from django.urls import path, include, re_path
+from django.view.generic import TemplateView
 
 from accounts.api.views import LoginViewSet, UserViewSet, ProfileViewSet
 from projects.api.views import (
@@ -44,6 +45,7 @@ urlpatterns = [
     path('api/comments/', include('comments.api.urls', namespace='comments')),
     path('api/modification-requests/', include('modificationrequests.api.urls', namespace='modificationrequests')),
     path('admin/', admin.site.urls)
+    re_path('.*', TemplateView.as_view(template_name='index.html'))
 ]
 
 
