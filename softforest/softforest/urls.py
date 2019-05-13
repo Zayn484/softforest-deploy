@@ -44,7 +44,7 @@ urlpatterns = [
     path('api/chat/', include('chat.api.urls', namespace='chat')),
     path('api/comments/', include('comments.api.urls', namespace='comments')),
     path('api/modification-requests/', include('modificationrequests.api.urls', namespace='modificationrequests')),
-    path('admin/', admin.site.urls)
+    path('admin/', admin.site.urls),
     re_path('.*', TemplateView.as_view(template_name='index.html'))
 ]
 
