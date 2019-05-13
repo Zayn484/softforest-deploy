@@ -3,7 +3,7 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from rest_framework import routers
 from django.urls import path, include, re_path
-from django.view.generic import TemplateView
+from django.views.generic import TemplateView
 
 from accounts.api.views import LoginViewSet, UserViewSet, ProfileViewSet
 from projects.api.views import (
