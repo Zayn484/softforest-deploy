@@ -1,2 +1,2 @@
 release: python softforest/manage.py migrate
-web: gunicorn softforest.wsgi --log-file -
+web: gunicorn --pythonpath softforest softforest.wsgi --log-file -
