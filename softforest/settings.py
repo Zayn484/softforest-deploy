@@ -48,15 +48,15 @@ INSTALLED_APPS = [
     'import_export',
 
     # Our apps
-    'softforest.accounts',
-    'softforest.chat',
-    'softforest.carts',
-    'softforest.comments',
-    'softforest.modificationrequests',
-    'softforest.projects',
-    'softforest.orders',
-    'softforest.tags',
-    'softforest.earnings'
+    'accounts',
+    'chat',
+    'carts',
+    'comments',
+    'modificationrequests',
+    'projects',
+    'orders',
+    'tags',
+    'earnings'
 
 ]
 
