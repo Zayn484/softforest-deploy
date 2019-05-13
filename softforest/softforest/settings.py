@@ -18,7 +18,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['softforest.herokuapp.com']
 
 # User model
-AUTH_USER_MODEL = 'accounts.User'
+AUTH_USER_MODEL = 'softforest.accounts.User'
 
 
 # Application definition
@@ -48,15 +48,15 @@ INSTALLED_APPS = [
     'import_export',
 
     # Our apps
-    'accounts',
-    'chat',
-    'carts',
-    'comments',
-    'modificationrequests',
-    'projects',
-    'orders',
-    'tags',
-    'earnings'
+    'softforest.accounts',
+    'softforest.chat',
+    'softforest.carts',
+    'softforest.comments',
+    'softforest.modificationrequests',
+    'softforest.projects',
+    'softforest.orders',
+    'softforest.tags',
+    'softforest.earnings'
 
 ]
 
